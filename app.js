@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.render('home')
 });
 
-const port = process.env.PORT || 3000;
-app.listen(3000, () => {
-    console.log(`Serving on port 3000`)
+const port = process.env.PORT || 4444;
+app.listen(4444, () => {
+    console.log(`Serving on port 4444`)
 })
