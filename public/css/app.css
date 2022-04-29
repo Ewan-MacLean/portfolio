@@ -206,28 +206,42 @@ body {
 }
 
 #projects {
-  height: fit-content;
-  width:100%;
+  height: 100%;
+  width: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: rgb(2, 82, 148);
-  /* display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; */
 }
 
 .project {
-  height:300px;
-  width: 100%;
+  /* height:25vh; */
+  /* width: 100%; */
+  padding: 5em ;
   border: white solid 2px;
+  background-color: rgb(2, 82, 148);
   display: flex;
-
+  flex-direction: row;
 }
 
 .project-img {
   height: 100%;
   width: 25%;
+  margin-right: 2em;
+}
+
+video {
+  height: 100%;
+  width: 25%;
+  margin-right: 2em;
+}
+
+.project-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.project-link:hover {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 #contact {
