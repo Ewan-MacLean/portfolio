@@ -180,7 +180,7 @@ body {
 }
 
 #skillsTable {
-  width: 50vw;
+  width: 70vw;
   height: 75vh;
   /* grid method */
   display: grid;
