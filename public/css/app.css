@@ -351,11 +351,12 @@ video {
   .skill {
     height: fit-content;
     width: 50%;
+    padding-top:0.4em;
   }
 
   .skill-img {
-    height: 5em;
-    width: 5em;
+    height: 5.5em;
+    width: 5.5em;
   }
 
   .skill-img:hover {
