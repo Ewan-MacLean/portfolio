@@ -190,7 +190,7 @@ body {
 }
 
 .skill {
-  height: 50%;
+  height: 33.33%;
   width: 33.33%;
   margin: auto;
   display: flex;
@@ -199,9 +199,14 @@ body {
 }
 
 .skill-img {
+  height: 7.5em;
+  width: 7.5em;
+  object-fit:contain;
+}
+
+.skill-img:hover {
   height: 8em;
   width: 8em;
-  object-fit:contain;
 }
 
 #projects {
