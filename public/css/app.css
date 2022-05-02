@@ -241,9 +241,9 @@ body {
 }
 
 .btn-primary:hover {
-  /* color: white; */
+  /* color: rgba(255, 255, 255, 0.732); */
   border:1px solid white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .btn-warning {
@@ -257,7 +257,7 @@ body {
 
 .btn-warning:hover {
   background-color: slateblue;
-  color:white;
+  color: white;
   border:1px solid white;
   opacity: 0.8;
 }
