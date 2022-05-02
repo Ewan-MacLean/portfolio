@@ -286,6 +286,7 @@ video {
   height: 30em;
   width: 30em;
   margin-right: 2em;
+  object-fit: cover;
 }
 
 .project-link {
