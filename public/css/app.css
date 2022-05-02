@@ -165,14 +165,7 @@ body {
   flex-direction: column;
   color: gainsboro;
   font-size: 21px;
-/* 
-  opacity: 0;
-  transition: opacity 500ms; */
 }
-
-/* .skills-header.scrolled {
-  opacity: 1;
-} */
 
 
 #skillsTable {
@@ -351,6 +344,8 @@ video {
 
   #skillsTable {
     flex-wrap: wrap;
+    width: 85vw;
+    margin-left:-2em;
   }
 
   .skill {
@@ -361,6 +356,11 @@ video {
   .skill-img {
     height: 5em;
     width: 5em;
+  }
+
+  .skill-img:hover {
+    height: 6em;
+    width: 6em;
   }
 
   video {
