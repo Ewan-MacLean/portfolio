@@ -139,7 +139,7 @@ body {
   }
 
   #home-github {
-    -webkit-animation: fadeinNav 2.45s;;
+    -webkit-animation: fadeinNav 2s;;
   }
 @keyframes fadeinHeader {
     from { opacity: 0; }
