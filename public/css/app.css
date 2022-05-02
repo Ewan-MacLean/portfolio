@@ -349,19 +349,18 @@ video {
   }
 
   .skill {
-    height: fit-content;
     width: 50%;
     padding-top:0.4em;
   }
 
   .skill-img {
-    height: 5.5em;
-    width: 5.5em;
+    height: 6em;
+    width: 6em;
   }
 
   .skill-img:hover {
-    height: 6em;
-    width: 6em;
+    height: 6.5em;
+    width: 6.5em;
   }
 
   video {
