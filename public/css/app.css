@@ -330,6 +330,11 @@ video {
   .nav-list-item {
     width: 20vw ;
   }
+
+  #home-h1 {
+    font-size: 40px;
+  }
+
   .project {
     height:100%;
     width: 100%;
