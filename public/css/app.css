@@ -359,8 +359,13 @@ video {
   #skillsTable {
     flex-wrap: wrap;
     height: fit-content;
-    width: 85vw;
-    margin-left:-2em;
+    width: fit-content;
+    margin-left:-2.35em;
+  }
+
+  #skills {
+    height: fit-content;
+    padding-bottom: 1em;
   }
 
   .skill {
