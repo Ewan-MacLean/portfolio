@@ -161,7 +161,6 @@ body {
 .skills-header {
   width: 80%;
   height: 100%;
-  /* border: gold solid 2px; */
   display: flex;
   flex-direction: column;
   color: gainsboro;
@@ -350,7 +349,7 @@ video {
 
   .skill {
     height: fit-content;
-    width: fit-content;
+    width: 50%;
   }
 
   .skill-img {
