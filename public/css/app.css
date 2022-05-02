@@ -123,21 +123,24 @@ body {
     margin-top: 25px;
     font-size: 21px;
     text-align: center;
-
-    -webkit-animation: fadeinHeader 2s;
   }
 
   #home-h1 {
     font-size: 70px;
     font-weight: 600;
     color: gainsboro;
+    -webkit-animation: fadeinHeader 2s;
   }
 
   #home-h2 {
     color: rgb(192, 192, 192);
     padding-left: 10px;
+    -webkit-animation: fadeinHeader 2s;
   }
 
+  #home-github {
+    -webkit-animation: fadeinNav 2s;;
+  }
 @keyframes fadeinHeader {
     from { opacity: 0; }
     to   { opacity: 1; }
