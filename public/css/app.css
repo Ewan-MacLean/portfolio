@@ -175,12 +175,9 @@ body {
   opacity: 1;
 } */
 
-.project {
-  color: rgb(192, 192, 192);
-}
 
 #skillsTable {
-  width: 70vw;
+  width: 60vw;
   height: 75vh;
   /* grid method */
   display: grid;
@@ -213,24 +210,74 @@ body {
 }
 
 .project {
-  /* height:25vh; */
-  /* width: 100%; */
-  padding: 5em ;
-  border: white solid 2px;
+  height:100%;
+  width: 100%;
+  border: rgba(255, 255, 255, 0.68) solid 2px;
   background-color: rgb(2, 82, 148);
   display: flex;
   flex-direction: row;
+  color: rgba(255, 255, 255, 0.68);
 }
 
-.project-img {
-  height: 100%;
-  width: 25%;
+.project-text {
+  margin-top: 2em;
+  /* display: flex; */
+  /* flex-direction: column; */
+
+}
+
+.btn {
+  margin-right: 1em;
+  /* margin-top:20em; */
+}
+
+.btn-primary {
+  color: white;
+  /* background-color: slateblue; */
+  height: 5em;
+  width: 15em;
+  border-radius: 1em;
+  border: 1px solid white;
+}
+
+.btn-primary:hover {
+  /* color: white; */
+  border:1px solid white;
+  opacity: 0.8;
+}
+
+.btn-warning {
+  color: white;
+  background-color: slateblue;
+  height: 5em;
+  width: 15em;
+  border-radius: 1em;
+  border: 1px solid white;
+}
+
+.btn-warning:hover {
+  background-color: slateblue;
+  color:white;
+  border:1px solid white;
+  opacity: 0.8;
+}
+
+#bus-img {
+  height: 30em;
+  width: 30em;
   margin-right: 2em;
+  object-fit:none;
+}
+.project-img {
+  height: 30em;
+  width: 30em;
+  margin-right: 2em;
+  object-fit:cover;
 }
 
 video {
-  height: 100%;
-  width: 25%;
+  height: 25em;
+  width: 30em;
   margin-right: 2em;
 }
 
